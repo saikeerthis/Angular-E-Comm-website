@@ -1,0 +1,179 @@
+{
+  "seller": [
+    {
+      "name": "sai",
+      "email": "sai@gmail.com",
+      "password": "abc@123",
+      "id": 1
+    },
+    {
+      "name": "keerthi",
+      "email": "test@gmail.com",
+      "password": "abc@1234",
+      "id": 2
+    },
+    {
+      "id": "6d28",
+      "name": "Sai Keerthi",
+      "password": "jdajao",
+      "email": "sai@testmail.com"
+    },
+    {
+      "id": "afea",
+      "name": "john",
+      "password": "johnsena",
+      "email": "john@yahoo.com"
+    },
+    {
+      "id": "4a04",
+      "name": "sam",
+      "password": "sa123",
+      "email": "sam@123.com"
+    },
+    {
+      "id": "5f10",
+      "name": "sam",
+      "password": "sa123",
+      "email": "sam@123.com"
+    },
+    {
+      "id": "1eb3",
+      "name": "sai keerthi",
+      "email": "sai@gmail.com",
+      "password": "sai123"
+    },
+    {
+      "id": "6025",
+      "name": "John",
+      "email": "john@gmail.com",
+      "password": "john123"
+    }
+  ],
+  "products": [
+    {
+      "id": "7e99",
+      "name": "samsung",
+      "price": "900",
+      "category": "mobile",
+      "color": "black",
+      "description": "samsung fold",
+      "image": "https://static1.anpoimages.com/wordpress/wp-content/uploads/2022/08/Galaxy-Fold-4-review-(12).JPG?q=50&fit=crop&w=1100&h=618&dpr=1.5"
+    },
+    {
+      "name": "iphone 16 ",
+      "price": "900",
+      "category": "mobile",
+      "color": "grey",
+      "description": "iphone 16 phone",
+      "image": "https://s7d1.scene7.com/is/image/dish/iPhone-16-Ultramarine-1?$ProductBase$&fmt=webp-alpha",
+      "id": "c8ce"
+    },
+    {
+      "id": "71c4",
+      "name": "Macbook Pro",
+      "price": "2300",
+      "category": "laptop",
+      "color": "silver",
+      "description": "macbook pro",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/62b322669e515ab7a37a1f0b/A87B25F0-63B5-4272-B7D7-6265D766C130-1-102-o/960x0.jpg?format=jpg&width=1440"
+    },
+    {
+      "id": "8f26",
+      "name": "Samsung",
+      "price": "1500",
+      "category": "mobile",
+      "color": "black",
+      "description": "samsung fold",
+      "image": "https://image-us.samsung.com/us/smartphones/galaxy-z-fold6/configurator/SCOMB6Q6-714-PromoGalleryImage-Q6-01-ExclusiveColors.jpg?$product-details-jpg$"
+    }
+  ],
+  "users": [
+    {
+      "id": "85bc",
+      "name": "sam",
+      "email": "sam@GMAIL.COM",
+      "password": "sam123"
+    },
+    {
+      "id": "33d7",
+      "name": "sam",
+      "email": "sam@gmail.com",
+      "password": "sam123"
+    },
+    {
+      "id": "132e",
+      "name": "sam",
+      "email": "sam@123.com",
+      "password": "sam123"
+    },
+    {
+      "id": "4d1d",
+      "name": "john",
+      "email": "john@gmail.com",
+      "password": "john123"
+    }
+  ],
+  "cart": [
+    {
+      "id": "ca60",
+      "name": "Macbook Pro",
+      "price": "2300",
+      "category": "laptop",
+      "color": "silver",
+      "description": "macbook pro",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/62b322669e515ab7a37a1f0b/A87B25F0-63B5-4272-B7D7-6265D766C130-1-102-o/960x0.jpg?format=jpg&width=1440",
+      "quantity": 2,
+      "productId": "71c4",
+      "userId": "4d1d"
+    },
+    {
+      "id": "547a",
+      "name": "iphone 16 ",
+      "price": "900",
+      "category": "mobile",
+      "color": "grey",
+      "description": "iphone 16 phone",
+      "image": "https://s7d1.scene7.com/is/image/dish/iPhone-16-Ultramarine-1?$ProductBase$&fmt=webp-alpha",
+      "quantity": 7,
+      "productId": "c8ce",
+      "userId": "4d1d"
+    },
+    {
+      "id": "ea1f",
+      "name": "samsung",
+      "price": "900",
+      "category": "mobile",
+      "color": "black",
+      "description": "samsung fold",
+      "image": "https://static1.anpoimages.com/wordpress/wp-content/uploads/2022/08/Galaxy-Fold-4-review-(12).JPG?q=50&fit=crop&w=1100&h=618&dpr=1.5",
+      "quantity": 1,
+      "productId": "7e99",
+      "userId": {
+        "id": "4d1d",
+        "name": "john",
+        "email": "john@gmail.com",
+        "password": "john123"
+      }
+    },
+    {
+      "id": "2b7a",
+      "name": "samsung",
+      "price": "900",
+      "category": "mobile",
+      "color": "black",
+      "description": "samsung fold",
+      "image": "https://static1.anpoimages.com/wordpress/wp-content/uploads/2022/08/Galaxy-Fold-4-review-(12).JPG?q=50&fit=crop&w=1100&h=618&dpr=1.5",
+      "quantity": 2,
+      "productId": "7e99",
+      "userId": {
+        "id": "4d1d",
+        "name": "john",
+        "email": "john@gmail.com",
+        "password": "john123"
+      }
+    }
+  ],
+  "orders" : [
+
+  ]
+}
